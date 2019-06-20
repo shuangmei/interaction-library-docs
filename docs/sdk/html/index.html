@@ -31,25 +31,31 @@ License Agreement</h1>
 </ul>
 <h1><a class="anchor" id="autotoc_md2"></a>
 Introduction</h1>
-<p>The main purpose of the Tobii Interaction Library is to make it easy to use gaze for interaction. It also provides robust, built in eye tracker connection management and of course easy access to standard data streams, all in a light weight library.</p>
-<p>For interaction, in general you want to know if the user is looking at an object (eg a buttons or game object) rather than on a certain coordinate. This is often called gaze to object mapping. The idea is that you provide the Interaction Library with information on where your interactable elements are (called Interactors in the API), and the library will provide gaze focus events. The Interaction Library makes the focus determination using advanced algorithms that take into account raw data noise, gaze offset errors, physiological and gaze behavioral eye/gaze effects, relative object sizes and z order, and more. This results in stable, smart object focus events without sluggishness and jitter.</p>
-<p>The Interaction Library is available for Windows (32 &amp; 64bits), MacOS and Linux and ships with support for C++, C and C#.</p>
+<p>The Tobii Interaction Library makes it easy to use gaze for interaction! It also provides robust, built-in eye tracker connection management and easy access to standard data streams, all in a lightweight library.</p>
+<p>For interaction, in general you want to know if the user is looking at an object (eg a button or game object) rather than at a certain coordinate. This is often called gaze to object mapping. The idea is that you provide the Interaction Library with information on where your interactable elements are (called Interactors in the API), and the library will provide gaze focus events. The Interaction Library makes the focus determination using advanced algorithms that take into account raw data noise, gaze offset errors, physiological and gaze behavioral eye/gaze effects, relative object sizes and z order, and more. This results in smart and stable object focus events without sluggishness and jitter.</p>
+<p>The Interaction Library is available for Windows (32-bit &amp; 64-bit), MacOS (64-bit) and Linux 64-bit) and ships with support for C++, C and C#.</p>
 <h1><a class="anchor" id="autotoc_md3"></a>
 Getting Started</h1>
 <p>Download the SDK package for your OS from <a href="https://developer.tobii.com">developer.tobii.com</a>. The SDK package contains the Interaction Library libraries and dependencies, header files where applicable, sample sources, pre-built sample binaries, license files, release notes and this documentation in html format. The header files also contain the reference documentation.</p>
 <ul>
 <li>C++<ul>
-<li><a href="../../cpp/html/index.html">Sample walkthrough</a></li>
+<li><a class="el" href="sample_cpp.html">Interaction sample source</a></li>
+<li><a href="../../cpp/html/index.html">Interaction sample walkthrough</a></li>
+<li><a class="el" href="sample_streams_cpp.html">Data streams sample source</a></li>
 <li><a href="../../cpp/html/gettingstarted.html">Example of how to build a C++ SDK sample on the command line</a></li>
 </ul>
 </li>
 <li>C<ul>
-<li><a href="../../c/html/index.html">Sample walkthrough</a></li>
+<li><a class="el" href="sample_c.html">Interaction source</a></li>
+<li><a href="../../c/html/index.html">Interaction sample walkthrough</a></li>
+<li><a class="el" href="sample_streams_c.html">Data streams sample source</a></li>
 <li><a href="../../c/html/gettingstarted.html">Example of how to build a C SDK sample on the command line</a></li>
 </ul>
 </li>
 <li>C#<ul>
-<li><a href="../../cs/html/index.html">Sample walkthrough</a></li>
+<li><a class="el" href="sample_cs.html">Interaction sample source</a></li>
+<li><a href="../../cs/html/index.html">Interaction sample walkthrough</a></li>
+<li><a class="el" href="sample_streams_cs.html">Data streams sample source</a></li>
 <li><a href="../../cs/html/gettingstarted.html">Example of how to build a C# SDK sample on the command line</a></li>
 </ul>
 </li>
@@ -58,17 +64,17 @@ Getting Started</h1>
 References</h1>
 <ul>
 <li>C++<ul>
-<li><a href="../../cpp/html/class_i_l_1_1_interaction_lib.html">Using the Interaction Library</a></li>
-<li><a href="../../cpp/html/group__initsetup.html">Create and destroy the Interaction Library using these factory methods</a></li>
+<li><a href="../../cpp/html/class_i_l_1_1_interaction_lib.html">Interaction Library API Reference</a></li>
+<li><a href="../../cpp/html/group__initsetup.html">Interaction Library factory methods and teardown</a></li>
 </ul>
 </li>
 <li>C<ul>
-<li><a href="../../c/html/group__intlib.html">Create and destroy, and using the Interaction Library</a></li>
+<li><a href="../../c/html/group__intlib.html">Interaction Library API Reference, including factory methods and teardown</a></li>
 </ul>
 </li>
 <li>C#<ul>
-<li><a href="../../cs/html/interface_i_l_1_1_i_interaction_lib.html">Using the Interaction Library</a></li>
-<li><a href="../../cs/html/class_i_l_1_1_interaction_lib_factory.html">Create the Interaction Library using these factory methods</a> </li>
+<li><a href="../../cs/html/interface_i_l_1_1_i_interaction_lib.html">Interaction Library API Reference</a></li>
+<li><a href="../../cs/html/class_i_l_1_1_interaction_lib_factory.html">Interaction Library factory methods</a> </li>
 </ul>
 </li>
 </ul>
